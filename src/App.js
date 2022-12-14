@@ -3,8 +3,10 @@ import Header from "./components/Header";
 import WeWillBuyYourCar from "./components/WeWillBuyYourCar";
 import CarImage from "./components/CarImage";
 import Grid from "@mui/material/Grid";
+import CashOnHand from "./components/CashOnHand";
 
 import "./App.css";
+import MainInfo from "./components/MainInfo";
 
 function App() {
   return (
@@ -16,6 +18,12 @@ function App() {
         <Grid container>
           <WeWillBuyYourCar />
           <CarImage />
+        </Grid>
+      </section>
+      <section>
+        <Grid>
+          <MainInfo />
+          <CashOnHand />
         </Grid>
       </section>
     </div>

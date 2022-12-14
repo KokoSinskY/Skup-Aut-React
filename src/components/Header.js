@@ -4,8 +4,8 @@ import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import CallIcon from "@mui/icons-material/Call";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { theme } from "../theme";
 import Box from "@mui/material/Box";
+import { theme } from "../theme";
 
 const Header = () => {
   const primaryColor = theme.palette.primary.main;

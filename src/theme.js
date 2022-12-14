@@ -29,8 +29,8 @@ export const theme = createTheme({
       fontSize: "0.67em",
     },
     big: {
-      fontSize: "6em",
-      "@media (max-width:600px)": {
+      fontSize: "5.9em",
+      "@media (max-width:599px)": {
         fontSize: "3.2em",
       },
     },
