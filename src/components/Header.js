@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <Grid
       container
-      sx={{ color: primaryColor, my: 3, px: 3, justifyContent: "space-between" }}
+      sx={{ color: primaryColor, my: 2, px: 3, justifyContent: "space-between" }}
     >
       <Grid item sm="auto" md="auto" lg="auto" xs={12} marginBottom={2}>
         <Box

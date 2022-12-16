@@ -5,8 +5,8 @@ import CarImage from "./components/CarImage";
 import Grid from "@mui/material/Grid";
 import CashOnHand from "./components/CashOnHand";
 
-import "./App.css";
 import MainInfo from "./components/MainInfo";
+import "./App.css";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         </Grid>
       </section>
       <section>
-        <Grid>
+        <Grid container>
           <MainInfo />
           <CashOnHand />
         </Grid>

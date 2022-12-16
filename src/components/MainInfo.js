@@ -9,39 +9,64 @@ import { theme } from "../theme";
 
 const MainInfo = () => {
   const primaryColor = theme.palette.primary.main;
+  const secondaryColor = theme.palette.secondary.main;
 
   return (
-    <Grid sx={{ color: primaryColor }}>
-      <List>
+    <Grid
+      container
+      item
+      paddingY={2}
+      xs={12}
+      sm={12}
+      md={12}
+      lg={6}
+      sx={{ justifyContent: "center", color: primaryColor }}
+    >
+      <List sx={{ border: `2px solid${secondaryColor}`, borderRadius: "50px" }}>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />
           </ListItemIcon>
-          <ListItemText primary="Dojazd do klienta i oględziny GRATIS!" />
+          <ListItemText
+            primaryTypographyProps={{ fontSize: "1.4em" }}
+            primary="Dojazd do klienta i oględziny GRATIS!"
+          />
         </ListItem>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />
           </ListItemIcon>
-          <ListItemText primary="Zakup auta natychmiast po ustaleniu ceny." />
+          <ListItemText
+            primaryTypographyProps={{ fontSize: "1.4em" }}
+            primary="Zakup auta natychmiast po ustaleniu ceny."
+          />
         </ListItem>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />
           </ListItemIcon>
-          <ListItemText primary="Odbiór własną lawetą." />
+          <ListItemText
+            primaryTypographyProps={{ fontSize: "1.4em" }}
+            primary="Odbiór własną lawetą."
+          />
         </ListItem>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />
           </ListItemIcon>
-          <ListItemText primary="Wszystkie formalności załatwiamy na miejscu." />
+          <ListItemText
+            primaryTypographyProps={{ fontSize: "1.4em" }}
+            primary="Wszystkie formalności załatwiamy na miejscu."
+          />
         </ListItem>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />
           </ListItemIcon>
-          <ListItemText primary="Kontakt codziennie do 23." />
+          <ListItemText
+            primaryTypographyProps={{ fontSize: "1.4em" }}
+            primary="Kontakt codziennie do 23."
+          />
         </ListItem>
       </List>
     </Grid>

@@ -14,12 +14,21 @@ const CashOnHand = () => {
       sm={12}
       md={12}
       lg={6}
-      sx={{ justifyContent: "center", color: primaryColor }}
+      sx={{
+        justifyContent: "center",
+        color: primaryColor,
+        textAlign: "center",
+        alignItems: "center",
+      }}
     >
       <Box
         paddingY={1}
         paddingX={3}
-        sx={{ border: `2px solid${secondaryColor}`, borderRadius: "50px" }}
+        sx={{
+          border: `2px solid${secondaryColor}`,
+          borderRadius: "50px",
+          height: "fit-content",
+        }}
       >
         <Typography variant="h1" component="h2">
           GOTÓWKA OD RĘKI
