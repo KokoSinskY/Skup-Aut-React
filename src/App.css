@@ -3,8 +3,8 @@ body {
   overflow-x: hidden;
 }
 
-.towTruck {
+.car {
   border: 1px solid #ff884d;
   border-radius: 20%;
-  max-width: 90%;
+  max-width: 88%;
 }

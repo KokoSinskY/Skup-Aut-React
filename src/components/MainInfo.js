@@ -22,7 +22,7 @@ const MainInfo = () => {
       lg={6}
       sx={{ justifyContent: "center", color: primaryColor }}
     >
-      <List sx={{ border: `2px solid${secondaryColor}`, borderRadius: "50px" }}>
+      <List sx={{ border: `2px solid${secondaryColor}`, borderRadius: "50px", mx: 1 }}>
         <ListItem>
           <ListItemIcon sx={{ color: primaryColor }}>
             <Check />

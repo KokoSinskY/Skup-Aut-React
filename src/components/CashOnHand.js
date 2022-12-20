@@ -24,13 +24,22 @@ const CashOnHand = () => {
       <Box
         paddingY={1}
         paddingX={3}
+        marginX={1}
         sx={{
           border: `2px solid${secondaryColor}`,
           borderRadius: "50px",
           height: "fit-content",
         }}
       >
-        <Typography variant="h1" component="h2">
+        <Typography
+          component="h2"
+          sx={{
+            fontSize: "3em",
+            "@media (max-width:599px)": {
+              fontSize: "2.5em",
+            },
+          }}
+        >
           GOTÓWKA OD RĘKI
         </Typography>
       </Box>
